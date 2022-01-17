@@ -1,0 +1,2 @@
+# Email-Prediction-Using-Pandas-and-NLTK
+ This is the project which predicts the email you have given as input. I have trained the datasets for OTP mail prediction, PASSWORD mail prediction, TRANSACTION mail prediction and INTERSHALA mail prediction. I have stored all the data into the text files and then reading that data from the text files and then storing it into the list after lematizing and removing stop words which will be my trained dataset. In the final stage, it will compare the email entered and the trained data and will print the category of the email.
