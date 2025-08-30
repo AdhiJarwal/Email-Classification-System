@@ -1,2 +1,9 @@
-# Email-Prediction-Using-Pandas-and-NLTK
- This is the project which predicts the email you have given as input. I have trained the datasets for OTP mail prediction, PASSWORD mail prediction, TRANSACTION mail prediction and INTERSHALA mail prediction. I have stored all the data into the text files and then reading that data from the text files and then storing it into the list after lematizing and removing stop words which will be my trained dataset. In the final stage, it will compare the email entered and the trained data and will print the category of the email.
+# Email Classification System
+
+A text classification system that categorizes emails into different types (Reset Password, OTP, Transaction, and Internshala promotional emails) using natural language processing techniques. The system processes email content by removing stop words, applies stemming using NLTK's Lancaster Stemmer, and classifies emails by comparing word overlap between the input email and pre-trained datasets for each category. The classification is determined by finding which category has the highest number of common words with the input email.
+
+The project uses four main email categories:
+1. Reset Password emails
+2. OTP (One-Time Password) emails
+3. Transaction/Payment emails
+4. Internshala promotional emails
